@@ -1,0 +1,27 @@
+
+37 ?- consult(['c:/Users/mha09/Downloads/family.pl']).
+true.
+
+38 ?- father(faisal, naji).
+true.
+
+39 ?- father(jana, naji).
+false.
+
+40 ?- mother(jana, naji).
+true.
+
+41 ?- mother(faisal, naji).
+false.
+
+42 ?- brother(faisal, haliya).
+true .
+
+43 ?- brother(reem, mohammed).
+false.
+
+44 ?- sister(haliya, reem).
+true .
+
+45 ?- sister(faisal, reem).
+false.
